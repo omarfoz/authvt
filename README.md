@@ -12,15 +12,15 @@ This app allows you to drop pins on anywhere on the map and let's you see photos
     * MacOS system
 
 ## Installation
-Go to the following repository: [Virtual-Tourist](https://github.com/ImYazeed/Virtual-Tourist)
+Go to the following repository: [Virtual-Tourist](https://github.com/omarfoz/authvt)
 Then clone or download the project. If you chose to download the project extract the Zip file and open the Virtual-Tourist.xcworkspace file inside the Virtual-Tourist folder with xCode.
 
 
 ### You can build the application on your device by 
 1.  Navigate to the project directory on terminal
 2.  type `pod install`
-3.	Open `Virtual-Tourist.xcworkspace`
-4.	Plugging in your iDevice to your Mac
+3.	Open `virtual tourist.xcworkspace`
+4.	Plugging in your Device to your Mac
 5.	Press on the project name then sign with your apple ID
 6.	Run the App 
 
@@ -29,9 +29,11 @@ The project follows the Model View Controller (MVC) design for separating the co
 The classes are separated as follows
 
 ### Controller
+   * `AuthViewController`: Here will you authenticate the user, first from Face ID or fingerprint after that will authenticate from the server to get the token.
+
    * `MapViewController`: Here is the landing page and where you can place you pin anywhere on the map where you want to see photos from that place.
 
-   * `AlbumViewController`: When pressing on one of the pins you will be directed to this view with 9 photos from that place, with a button for pulling another 9 photos.  
+   * `PhotoAlbumViewController`: When pressing on one of the pins you will be directed to this view with 9 photos from that place, with a button for pulling another 9 photos.  
 
 
 ### Cocoapods
@@ -48,6 +50,6 @@ The classes are separated as follows
 
    I used "CoreData" to save the pins and the photos to be accessible at all times. Such as:
 
-2.	**Using extension**
+2.	**Implementing authentication from the server**
 
-     I used extension to prevent redundancy and reuse the code and in force generic functions arguments, so it can be used multiple times and by many controllers.
+     I used authentication by Face ID or fingerprint to easily login.
