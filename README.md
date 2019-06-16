@@ -5,7 +5,7 @@ This app allows you to drop pins on anywhere on the map and let's you see photos
  
 ## Requirements
 * For installing:
-    * iOS 12.2+
+    * iOS 12.1+
 * For editing the code:
     * Xcode 10.1+
     * Swift 4.2+
