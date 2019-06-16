@@ -1,0 +1,20 @@
+PODS:
+  - IBMMobileFirstPlatformFoundation (8.0.2019030211)
+  - Kingfisher (5.2.0)
+
+DEPENDENCIES:
+  - IBMMobileFirstPlatformFoundation
+  - Kingfisher (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMMobileFirstPlatformFoundation
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  IBMMobileFirstPlatformFoundation: 4e24493c34ec22b72a768833b9cdc9729eab55ea
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+
+PODFILE CHECKSUM: 2e34242759f7bb052e75080c9d80d951bac86d2f
+
+COCOAPODS: 1.5.3
